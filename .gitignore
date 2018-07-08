@@ -1,0 +1,14 @@
+# testing
+coverage
+
+# dependencies
+node_modules
+node_modules
+
+# production
+dist
+
+# misc
+.DS_Store
+.env
+*.log*

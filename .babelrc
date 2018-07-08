@@ -1,0 +1,25 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "targets": {
+        "browsers": ["last 2 versions"]
+      }
+    }],
+    ["@babel/stage-0", {
+      "decoratorsLegacy": true,
+      "pipelineProposal": "minimal"
+    }],
+    "@babel/preset-typescript"
+  ],
+  "plugins": [
+    ["@babel/plugin-proposal-class-properties", {
+      "loose": true
+    }],
+    ["@babel/plugin-transform-runtime", {
+      "helpers": false,
+      "loose": true,
+      "polyfill": false,
+      "regenerator": true
+    }]
+  ]
+}
